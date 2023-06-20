@@ -1,0 +1,293 @@
+:root {
+    --green: #a1c927;
+    --red: #fd634d;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    background: url('../img/headerbg.jpg') center/cover;
+    text-align: center;
+}
+footer{
+    height: 100vh;
+    background: url('../img/footerbg.jpg') center/cover;
+}
+nav,
+#title,
+#roll {
+    position: absolute;
+    width: 100%;
+}
+
+nav {
+    padding: 40px 3.1%;
+}
+
+#menu {
+    padding: 20px 0;
+}
+
+#menu li a {
+    font: .8em "Avenir";
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+#menu li a:hover{
+    color:var(--green);
+}
+#title {
+    bottom: 15.5vh;
+    text-align: center;
+}
+
+h1 {
+    font: normal 2em 'Myriad Pro';
+    text-transform: uppercase;
+}
+
+h2 {
+    font: normal 2em "Open Sans";
+    text-transform: uppercase;
+}
+h3{ 
+font: normal 2em "Open Sans";
+text-transform: uppercase;
+color: var(--green);
+}
+
+h5 {
+    font: normal 1em 'Myriad Pro';
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+h6 {
+    color: var(--red);
+    font: normal 1em Montserrat;
+    text-transform: uppercase;
+}
+
+.art4 {
+    padding: 70px 0px;
+}
+
+.art4 i {
+    font-size: 3em;
+    margin-bottom: .3em;
+}
+
+.art4 p {
+    padding: 24px 0px;
+    font: normal .9em/1.5em ProximaNova;
+}
+
+.art4 a {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.art4 a:hover {
+    color: var(--red);
+}
+
+.article p,
+.article a {
+    font: normal .9em/1.5 "Open Sans";
+    padding: 20px 0px;
+}
+
+.article a {
+    text-decoration: underline;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.article a:hover {
+    color: var(--red);
+}
+
+.artice {
+    padding: 55px 44px;
+}
+
+.article i {
+    color: #fd634d;
+}
+
+#roll {
+    height: 50px;
+    background: #fd634d4d;
+    width: 100%;
+    bottom: 0;
+}
+
+.bgwhite {
+    background: #fff;
+}
+
+.bggreen {
+    background-color: var(--green);
+}
+
+.bgred {
+    background-color: var(--red);
+}
+
+.txtwhite {
+    color: #fff
+}
+
+.txtgreen {
+    color: var(--green)
+}
+
+.txtred {
+    color: red
+}
+
+.col25 {
+    padding: 30px 20px;
+}
+
+.article {
+    padding: 60px 10px;
+}
+
+
+
+.fright {
+    float: right;
+}
+
+.vh50 {
+    height: 50vh;
+}
+
+.text_align {
+    text-align: center;
+}
+
+.txtp{
+    padding: 0px 15px;
+}
+#fitnessfirst {
+    background: url("../img/fitnessfirst.jpg") center/cover;
+}
+#loveyourbody {
+    background: url("../img/yourbody.jpg") center/cover;
+}
+#lifestyle {
+    background: url("../img/lifestyle.jpg") top/cover;
+}
+#summeroffun {
+    background: url("../img/summeroffun.jpg") center/cover;
+}
+#grape {
+    background: url("../img/grape.jpg") center/cover;
+}
+#mango {
+    background: url("../img/mango.jpg") center/cover;
+}
+
+
+ #footerbg{
+    position: relative;
+ }
+  .footer_wrapper{
+    background-color: #fd644d4e;
+    clear: both;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .info i{
+   font-size: 1.5em;
+   cursor: pointer;
+   margin-left: 5px;
+   color: #fff;
+   transition: .4s;
+  }
+  i:hover{
+    color: var(--green);
+  }
+  .copy{
+    padding: 7px;
+    margin-bottom: 27px;
+  }
+  .copy a{
+    font-size: 1.3em;
+    color: #fff;
+  }
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 1180px;
+        margin: auto;
+    }
+
+    header {
+        text-align: initial;
+    }
+
+    #menu {
+        float: right;
+    }
+
+    #menu li {
+        display: inline-block;
+        padding: 0 0 0 3.1vw;
+    }
+
+    #title {
+        width: initial;
+        text-align: right;
+        left: 7.2vw
+    }
+
+    h1 {
+        font-size: 2.5em
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h5 {
+        padding: 10px 25px;
+    }
+
+    .col25 {
+        width: 25%;
+    }
+
+    .col33 {
+        width: 33.33%;
+    }
+
+    .col66 {
+        width: 66.66%;
+    }
+
+    .fleft {
+        float: left
+    }
+
+    .fright {
+        float: right;
+    }
+
+    .row::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .logo{
+        text-align: right;
+    }
+
+}
